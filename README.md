@@ -43,8 +43,6 @@ The metadata also indicates the skill assessment **lifecycle**. For "experimenta
 
 </details>
 
-<br>
-
 <details>
 <summary>Getting help</summary>
 
@@ -55,8 +53,6 @@ If you find a bug or get confused, please don't hesitate to contact the BRN Skil
 <hr>
 
 </details>
-
-<br>
 
 <details>
 <summary>Privacy, Code of Conduct, and Academic Honesty</summary>
@@ -90,8 +86,6 @@ def function_adapted_from_stack_overflow(params):
 
 </details>
 
-<br>
-
 ## Requirements
 
 This Skill Assessment will require you to write a **script**, `main.py`, which contains a **function** called `hello()` that returns the phrase `"Hello, world!"`.
@@ -124,14 +118,14 @@ You can issue **bot commands** which perform various tasks. The welcome message 
 
 For example, issue the "hello" command by **posting this comment**:
 
-```markdown
+```
 @brnbot hello
 ```
 
 Then I will reply:
 
-```markdown
-Hello, @{your-username}! 😊
+```
+Hello, @<your_username>! 😊
 ```
 
 You will need to use bot commands to complete the assignment, so get used to typing "`@brnbot <command>`" in the pull request.
@@ -159,13 +153,11 @@ You can view and edit the code using any of the following options:
 
 </details>
 
-<br>
-
 Once you push your changes back to the GitHub repo, you should run the automated tests to see if your code works correctly.
 
 To accomplish this, navigate back to the feedback pull request and issue the following bot command:
 
-```markdown
+```
 @brnbot check
 ```
 
@@ -228,7 +220,7 @@ pip install pytest
 pytest
 ```
 
-#### A note about academic honesty and tests
+**A note about academic honesty and tests**:
 
 The `tests/` folder contains the "correct answers" to these Skill Assessments. Therefore, it is possible to ignore the assignment prompt and write your code to exactly match the outputs that the tests expect. While this might work for assessments which have no reviewers, it is still dishonest and may lead to your account being **suspended** and badges **revoked**.
 
@@ -236,14 +228,26 @@ The `tests/` folder contains the "correct answers" to these Skill Assessments. T
 
 </details>
 
-<br>
-
 Once you pass the tests, I will issue your badge 🏆 and archive the repo. You will get an email with the link to your badge and it will also appear in your profile on the BRN Skill Assessment web platform.
 
 ### External resources
 
-For a tutorial on how to use git and GitHub, check these resources here:
+For a tutorial on how to use **git and GitHub**, check out these resources:
+
+1. Official GitHub tutorial: [link](https://docs.github.com/en/get-started/quickstart)
+2. YouTube tutorials: [link 1](https://www.youtube.com/watch?v=DVRQoVRzMIY), [link 2](https://www.youtube.com/watch?v=RGOj5yH7evk), [link 3](https://www.youtube.com/watch?v=3fUbBnN_H2c)
+3. Written tutorials: [link 1](https://www.freecodecamp.org/news/git-and-github-for-beginners/), [link 2](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/)
 
 
+For basic **python programming**, check out these resources:
+
+1. Written tutorials: [learnpython.org](https://www.learnpython.org/), [W3 schools](https://www.w3schools.com/python/), 
+2. YouTube tutorials: [freecodecamp](https://www.youtube.com/watch?v=rfscVS0vtbw), [Programming with Mosh](https://www.youtube.com/watch?v=_uQrJ0TkZlc), [Core Scafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+3. MOOCs: [EdX](https://www.edx.org/professional-certificate/introduction-to-python-programming), [Coursera](https://www.coursera.org/specializations/python)
+4. Online learning platforms: [codecademy](https://www.codecademy.com/learn/learn-python-3), [DataCamp](https://www.datacamp.com/learn/python)
 
 
+For learning how to use **`pytest`**, check out these resources:
+
+1. Written: [Official docs](https://pytest.org/), [real python](https://realpython.com/pytest-python-testing/)
+2. YouTube: [edureka!](https://www.youtube.com/watch?v=byaxg00Gf9I)
