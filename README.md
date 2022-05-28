@@ -6,13 +6,11 @@
 
 Hello and welcome to the BRN Skill Assessment tutorial 👋!
 
-My name is **BRN bot** and I will help you get started today 🚀 (\*\*beep boop\*\* 🤖).
+My name is **BRN bot** and I will help you get started today (\*\*beep boop\*\* 🤖).
 
 Let's dive in so you can earn your first Skill Assessment badge 🏆.
 
 ## Instructions
-
-If this is your first time using BRN Skill Assessments, then please read these instructions **carefully** 👀.
 
 Every BRN Skill Assessment contains **Instructions** which provide the following information:
 
@@ -94,8 +92,8 @@ Therefore, the **requirements for success** in the assessment are:
 
 1. Write a script, `main.py`
 2. Create a function `hello()` in `main.py`.
-3. `hello()` should return a `str` which says `"Hello, world!"`. 
-4. The repository must pass the automated tests.
+3. `hello()` should `return "Hello, world!"`. 
+4. The repository must pass the automated tests (learn about these tests [here](#completing-the-assessment))
 
 Based on the requirements, users should be able to import your script and run `hello` via the following commands:
 
@@ -110,11 +108,9 @@ print(main.hello())  # Says "Hello, world!"
 
 ### The BRN Skill Assessment Interface
 
-Since I am helping you along with this skill assessment, we will need a way to talk to eachother. Fortunately, GitHub provides **Pull Requests** which give us a place to talk about your code. 
+Since I am helping you along with this skill assessment, we will need a way to talk to eachother 💬. Fortunately, GitHub provides **Pull Requests** which will allow us to communicate. **Navigate** to the "Pull requests" tab and click the one called "Feedback". You should see a welcome message from me 🤖.
 
-**Navigate** to the "Pull requests" tab and click the one called "Feedback". You should see a welcome message from yours truly 🤖.
-
-You can issue **bot commands** which perform various tasks. The welcome message lists the ones that are available to you in this skill assessment. 
+Using the pull request comments, you can issue **bot commands** which perform various tasks. The welcome message lists the ones that are available to you in this skill assessment. 
 
 For example, issue the "hello" command by **posting this comment**:
 
@@ -130,11 +126,9 @@ Hello, @<your_username>! 😊
 
 You will need to use bot commands to complete the assignment, so get used to typing "`@brnbot <command>`" in the pull request.
 
-Finally, while this assessment does not require manual review, subsequent ones will. The pull request will also be used for reviewers to leave critiques and request changes to your code.
-
 ### Completing the assessment
 
-Since this is your first time, I've gone ahead and completed [Requirements](#requirements) 1-3 for you 😊. But even I make mistakes sometimes 🤖... You may want to **check my code for errors** 🔍.
+Since this is your first time, I've gone ahead and completed [Requirements](#requirements) 1-3 for you 😊. But even I make mistakes sometimes 🤖... so, you may want to **check my code for errors** 🔍.
 
 You can view and edit the code using any of the following options:
 
@@ -144,30 +138,22 @@ You can view and edit the code using any of the following options:
 
 <hr>
 
-1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your local computer, and then open the code in your favorite editor (e.g., VS Code, Atom, PyCharm, etc). Once you are happy with your changes, use git to `add` your changes, `commit` them, and then `push` them back to this GitHub repo. See [external resources](#external-resources) for learning resources on using git/GitHub. (**Recommended**)
-2. Edit the code in your browser by pressing the "." key to open an in-browser VS Code session. 
-3. You can also simply navigate to the file you want to modify in the GitHub repo and click the edit icon.
+1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your local computer, and then open the code in your favorite editor (e.g., VS Code, Atom, PyCharm, etc). Once you are happy with your changes, use git to `add` your changes, `commit` them, and then `push` them back to this GitHub repo. (**Recommended approach**)
+2. Edit the code in your browser by pressing the "." key to open an in-browser VS Code session. Commit your changes using the built-in version control panel.
+3. You can also simply navigate to the file you want to modify in the GitHub repo and click the edit icon to add your changes and commit them directly.
 4. Request access to the BRN Orchestra server (contains Jupyter Notebook, VS Code, and RStudio IDEs) by contacting training@bioresnet.org. Once granted, you will be able to open the repo in your own server sessions and `add`, `commit`, and `push` it back to GitHub.
 
 <hr>
 
 </details>
 
-Once you push your changes back to the GitHub repo, you should run the automated tests to see if your code works correctly.
-
-To accomplish this, navigate back to the feedback pull request and issue the following bot command:
+Once you push your changes back to the GitHub repo, **run the checks** to see if your code works correctly. You can run checks by issuing this bot command:
 
 ```
 @brnbot check
 ```
 
-I will see this comment and run the tests for you. You can monitor the progress of the checks in the "Actions" panel and see the results there. 
-
-Once the tests are done, I will write a comment and I will tell you whether they passed or failed. 
-
-If they failed, examine the log in the "Actions" tab to see what went wrong. Then update your code accordingly and rerun the tests. 
-
-Rinse and repeat until they are all passing!
+I will see this comment and run the tests for you. You can monitor the progress of the checks in the "Actions" panel and see the results there. Once the tests are done, I will write a comment and I will tell you whether they passed or failed. If they failed, examine the log in the "Actions" tab to see what went wrong. Then update your code accordingly and rerun the tests. 
 
 <details>
 <summary>Testing details</summary>
@@ -194,7 +180,7 @@ The repo code is then tested in the last part of the workflow:
     pytest
 ```
 
-The `pytest` command fins all the tests in the `tests/` folder and then executes them.
+The `pytest` command finds all the tests in the `tests/` folder and then executes them.
 
 For this skill assessment, there is only one test in `tests/test_main.py`:
 
@@ -233,21 +219,19 @@ Once you pass the tests, I will issue your badge 🏆 and archive the repo. You 
 ### External resources
 
 For a tutorial on how to use **git and GitHub**, check out these resources:
-
-1. Official GitHub tutorial: [link](https://docs.github.com/en/get-started/quickstart)
-2. YouTube tutorials: [link 1](https://www.youtube.com/watch?v=DVRQoVRzMIY), [link 2](https://www.youtube.com/watch?v=RGOj5yH7evk), [link 3](https://www.youtube.com/watch?v=3fUbBnN_H2c)
-3. Written tutorials: [link 1](https://www.freecodecamp.org/news/git-and-github-for-beginners/), [link 2](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/)
+1. Written tutorials: [GitHub official tutorial](https://docs.github.com/en/get-started/quickstart), [freecodecamp.org](https://www.freecodecamp.org/news/git-and-github-for-beginners/), [analyticsvidhya](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/)
+2. YouTube tutorials: [Tech with Tim](https://www.youtube.com/watch?v=DVRQoVRzMIY), [freecodecamp.org](https://www.youtube.com/watch?v=RGOj5yH7evk), [Amigoscode](https://www.youtube.com/watch?v=3fUbBnN_H2c)
 
 
 For basic **python programming**, check out these resources:
 
 1. Written tutorials: [learnpython.org](https://www.learnpython.org/), [W3 schools](https://www.w3schools.com/python/), 
-2. YouTube tutorials: [freecodecamp](https://www.youtube.com/watch?v=rfscVS0vtbw), [Programming with Mosh](https://www.youtube.com/watch?v=_uQrJ0TkZlc), [Core Scafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+2. YouTube tutorials: [freecodecamp](https://www.youtube.com/watch?v=rfscVS0vtbw), [Programming with Mosh](https://www.youtube.com/watch?v=_uQrJ0TkZlc), [Cory Schafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
 3. MOOCs: [EdX](https://www.edx.org/professional-certificate/introduction-to-python-programming), [Coursera](https://www.coursera.org/specializations/python)
 4. Online learning platforms: [codecademy](https://www.codecademy.com/learn/learn-python-3), [DataCamp](https://www.datacamp.com/learn/python)
 
 
 For learning how to use **`pytest`**, check out these resources:
 
-1. Written: [Official docs](https://pytest.org/), [real python](https://realpython.com/pytest-python-testing/)
+1. Written: [Official pytest docs](https://pytest.org/), [real python](https://realpython.com/pytest-python-testing/)
 2. YouTube: [edureka!](https://www.youtube.com/watch?v=byaxg00Gf9I)
