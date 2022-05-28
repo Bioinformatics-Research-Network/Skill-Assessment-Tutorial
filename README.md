@@ -23,7 +23,7 @@ Or stop and check out this additional information about BRN Skill Assessments:
 
 
 <details>
-<summary>Metadata</summary>
+<summary>Assessment metadata</summary>
 
 <hr>
 
@@ -93,7 +93,7 @@ Therefore, the **requirements for success** in the assessment are:
 1. Write a script, `main.py`
 2. Create a function `hello()` in `main.py`.
 3. `hello()` should `return "Hello, world!"`. 
-4. The repository must pass the automated tests (learn about these tests [here](#completing-the-assessment))
+4. The repository must pass the automated checks (learn about these checks [here](#completing-the-assessment))
 
 Based on the requirements, users should be able to import your script and run `hello` via the following commands:
 
@@ -108,7 +108,7 @@ print(main.hello())  # Says "Hello, world!"
 
 ### The BRN Skill Assessment Interface
 
-Since I am helping you along with this skill assessment, we will need a way to talk to eachother 💬. Fortunately, GitHub provides **Pull Requests** which will allow us to communicate. **Navigate** to the "Pull requests" tab and click the one called "Feedback". You should see a welcome message from me 🤖.
+Since I am helping you with this skill assessment, we will need a way to talk to eachother 💬. Fortunately, GitHub provides **Pull Requests** which will allow us to communicate. **Navigate** to the "Pull requests" tab and click the one called "Feedback". You should see a welcome message from me 🤖.
 
 Using the pull request comments, you can issue **bot commands** which perform various tasks. The welcome message lists the ones that are available to you in this skill assessment. 
 
@@ -153,14 +153,14 @@ Once you push your changes back to the GitHub repo, **run the checks** to see if
 @brnbot check
 ```
 
-I will see this comment and run the tests for you. You can monitor the progress of the checks in the "Actions" panel and see the results there. Once the tests are done, I will write a comment and I will tell you whether they passed or failed. If they failed, examine the log in the "Actions" tab to see what went wrong. Then update your code accordingly and rerun the tests. 
+I will see this comment and run the checks for you. You can monitor the progress of the checks in the "Actions" panel and see the results there. Once the checks are done, I will write a comment and I will tell you whether they passed or failed. If they failed, examine the log in the "Actions" tab to see what went wrong. Then update your code accordingly and rerun the checks. 
 
 <details>
-<summary>Testing details</summary>
+<summary>Check details</summary>
 
 <hr>
 
-The automated tests are run with [GitHub Actions](https://docs.github.com/en/actions) using the workflow defined in `.github/workflows/tests.yml` within this repo. 
+The automated checks are run with [GitHub Actions](https://docs.github.com/en/actions) using the workflow defined in `.github/workflows/tests.yml` within this repo. 
 
 When trigger, GitHub actions creates a new computing environment using the details in `tests.yml`. For this assessment, the environment contains python `v3.10` and the `pytest` package. That is defined in this part of the file:
 
@@ -195,7 +195,7 @@ This test simply imports the `main.py` script and then executes the `hello()` fu
 
 To complete a BRN Skill Assessment, **all tests** have to pass successfully.
 
-Finally, it can be inconvenient to push your code to GitHub every time you want to run a test. Fortunately, you can run tests locally by opening the terminal (MacOS/Linux) or command prompt (Windows), installing pytest, and then running pytest:
+Finally, it can be inconvenient to push your code to GitHub every time you want to run `pytest`. Fortunately, you can run tests locally by opening the terminal (MacOS/Linux) or command prompt (Windows), installing pytest, and then running pytest:
 
 
 ```bash
@@ -214,7 +214,7 @@ The `tests/` folder contains the "correct answers" to these Skill Assessments. T
 
 </details>
 
-Once you pass the tests, I will issue your badge 🏆 and archive the repo. You will get an email with the link to your badge and it will also appear in your profile on the BRN Skill Assessment web platform.
+Once you pass the checks, I will issue your badge 🏆 and archive the repo. You will get an email with the link to your badge and it will also appear in your profile on the BRN Skill Assessment web platform 🔥.
 
 ### External resources
 
