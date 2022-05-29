@@ -1,6 +1,6 @@
 # Skill Assessment Tutorial (Python) <img src="https://api.badgr.io/public/badges/MMuVRwluTd6cI33-0ILs3w/image" align="right" alt="logo" width="240" style = "border: none; float: right;">
 
-![](https://img.shields.io/static/v1?label=Version&message=0.0.2a&color=blue)
+![](https://img.shields.io/static/v1?label=Version&message=0.0.3a&color=seagreen)
 ![](https://img.shields.io/static/v1?label=Lifecycle&message=experimental&color=red)
 
 
