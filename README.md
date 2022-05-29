@@ -34,7 +34,7 @@ Each Skill Assessment also contains **metadata**, in the form of badges like the
 
 These badges indicate the **version** of the skill assessment you are completing. The badge you earn will be tied to the version of the skill assessment you completed.
 
-The metadata also indicates the skill assessment **lifecycle**. For "experimental" assessments, you might encounter bugs, unclear instructions, or both. "Stable" skill assessmens should have few bugs or errors. "Superceded" skill assessments have been replaced by a newer skill assessment. "Deprecated" means that the skill assessment is no longer valid and has not been replaced.
+The metadata also indicates the skill assessment **lifecycle**. For "experimental" assessments, you might encounter bugs, unclear instructions, or both. "Stable" skill assessmens should have few bugs or errors. "Superceded" skill assessments have been replaced. "Deprecated" means that the skill assessment is no longer valid and has not been replaced.
 
 <hr>
 
@@ -68,7 +68,7 @@ BRN has several policies which apply to Skill Assessments. During the sign up pr
 3. **Academic Honesty**
     - BRN strictly enforces policies that discourage cheating, fraud, and plagiarism in its [Academic Honesty Policy](https://docs.google.com/document/d/1-Xoko7VDr0lK7olboGQ2CPmEnUTV3WmiDxwQQuGBgiQ/edit). Because these skill assessments certify individual capability in bioinformatics, cheating and plagiarism guidelines are stricly enforced. 
     - The most common way for **cheating** to arise is when you share (or recieve) Skill Assessment code or answers from another BRN member. Therefore, we expressly forbid sharing code or discussing Skill Assessments with anyone who is not a member of the BRN Skill Assessment working group or BRN leadership team. 
-    - The most common way for **plagiarism** to arise is when a trainee copies code from other sources on the internet and does not appropriately attribute it. Copying code (with or without modification) from sources like Stack Overflow is fine as long as the source of that code is mentioned. For example:
+    - The most common way for **plagiarism** to arise is when a trainee copies code from other sources on the internet and does not appropriately attribute it. Copying code (with or without modification) from sources like Stack Overflow is fine as long as the source of that code is mentioned (see example below). This policy does not prevent using AI-based programming tools like Tabnine, Kite, and GitHub Copilot.
 
 ```python
 # This function copied from: https://www.stackoverflow.com/url_link
@@ -162,7 +162,7 @@ I will see this comment and run the checks for you. You can monitor the progress
 
 The automated checks are run with [GitHub Actions](https://docs.github.com/en/actions) using the workflow defined in `.github/workflows/tests.yml` within this repo. 
 
-When trigger, GitHub actions creates a new computing environment using the details in `tests.yml`. For this assessment, the environment contains python `v3.10` and the `pytest` package. That is defined in this part of the file:
+When triggered, GitHub actions creates a new computing environment using the details in `tests.yml`. For this assessment, the environment contains python `v3.10` and the `pytest` package. That is defined in this part of the file:
 
 ```yml
 - uses: actions/setup-python@v3
@@ -191,7 +191,7 @@ def test_hello():
     assert main.hello() == "Hello, world!"
 ```
 
-This test simply imports the `main.py` script and then executes the `hello()` function. It then uses the `assert` statement to ensure that the output matches the expected value: "`Hello, world!`". If it does not, then the test will fail.
+This test simply imports the `main.py` script and then executes the `hello()` function. It then uses the `assert` statement to ensure that the output matches the expected value: `"Hello, world!"`. If it does not, then the test will fail.
 
 To complete a BRN Skill Assessment, **all tests** have to pass successfully.
 
