@@ -1,7 +1,9 @@
 # Skill Assessment Tutorial (Python) <img src="https://api.badgr.io/public/badges/MMuVRwluTd6cI33-0ILs3w/image" align="right" alt="logo" width="240" style = "border: none; float: right;">
 
-![](https://img.shields.io/static/v1?label=Version&message=0.0.3a&color=seagreen)
-![](https://img.shields.io/static/v1?label=Lifecycle&message=experimental&color=red)
+[![](https://img.shields.io/static/v1?label=Language&message=Python&color=%23fc3)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Type&message=Software&color=darkgoldenrod)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Version&message=0.0.4a&color=seagreen)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Lifecycle&message=experimental&color=red)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
 
 
 Hello and welcome to the BRN Skill Assessment tutorial 👋!
@@ -29,28 +31,20 @@ Or stop and check out this additional information about BRN Skill Assessments:
 
 Each Skill Assessment also contains **metadata**, in the form of badges like these:
 
-![](https://img.shields.io/static/v1?label=Version&message=0.0.2a&color=blue)
-![](https://img.shields.io/static/v1?label=Lifecycle&message=experimental&color=red)
+[![](https://img.shields.io/static/v1?label=Language&message=Python&color=%23fc3)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Type&message=Software&color=darkgoldenrod)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Version&message=0.0.4a&color=seagreen)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Lifecycle&message=experimental&color=red)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
 
-These badges indicate the **version** of the skill assessment you are completing. The badge you earn will be tied to the version of the skill assessment you completed.
+These badges describe the assessment and provide additional useful information.
 
-The metadata also indicates the skill assessment **lifecycle**. For "experimental" assessments, you might encounter bugs, unclear instructions, or both. "Stable" skill assessmens should have few bugs or errors. "Superceded" skill assessments have been replaced. "Deprecated" means that the skill assessment is no longer valid and has not been replaced.
+To learn all about these metadata badges, please check the info sheet [here](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402).
 
 <hr>
 
 
 </details>
 
-<details>
-<summary>Getting help</summary>
-
-<hr>
-
-If you find a bug or get confused, please don't hesitate to contact the BRN Skill Assessment maintainers on the **#skill-assessment-help** Slack channel, and they will assist you. 
-
-<hr>
-
-</details>
 
 <details>
 <summary>Privacy, Code of Conduct, and Academic Honesty</summary>
@@ -85,6 +79,23 @@ def function_adapted_from_stack_overflow(params):
 </details>
 
 ## Requirements
+
+**Badge Requirements**:
+
+[![](https://img.shields.io/static/v1?label=Tests&message=Required&color=lightsalmon)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Linting&message=Not%20required&color=whitesmoke)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Coverage&message=Not%20required&color=whitesmoke)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Review&message=Not%20required&color=whitesmoke)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+
+
+**Testing environment**:
+
+[![](https://img.shields.io/static/v1?label=Runs%20on&message=Ubuntu%2022.04%20LTS&color=%235e2750)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Python-Version&message=3.10.4&color=darkturquoise)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Packages-allowed&message=None&color=lightgray)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+
+
+**Assessment Premise**: 
 
 This Skill Assessment will require you to write a **script**, `main.py`, which contains a **function** called `hello()` that returns the phrase `"Hello, world!"`.
 
@@ -235,3 +246,32 @@ For learning how to use **`pytest`**, check out these resources:
 
 1. Written: [Official pytest docs](https://pytest.org/), [real python](https://realpython.com/pytest-python-testing/)
 2. YouTube: [edureka!](https://www.youtube.com/watch?v=byaxg00Gf9I)
+
+
+### Requirements metadata
+
+[Requirements](#requirements) contains **metadata**, in the form of badges like these:
+
+**Badge Requirements**:
+
+[![](https://img.shields.io/static/v1?label=Tests&message=Required&color=lightsalmon)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Linting&message=Not%20required&color=whitesmoke)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Coverage&message=Not%20required&color=whitesmoke)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Review&message=Not%20required&color=whitesmoke)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+
+
+**Testing environment**:
+
+[![](https://img.shields.io/static/v1?label=Runs%20on&message=Ubuntu%2022.04%20LTS&color=%235e2750)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Python-Version&message=3.10.4&color=darkturquoise)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+[![](https://img.shields.io/static/v1?label=Packages-allowed&message=None&color=lightgray)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
+
+These badges describe the requirements for completing the assessment and the environment used for running checks.
+
+To learn all about these metadata badges, please check the info sheet [here](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402).
+
+
+### Getting help
+
+If you find a bug or get confused, please don't hesitate to contact the BRN Skill Assessment maintainers on the **#skill-assessment-help** Slack channel, and they will assist you. 
+
